@@ -1,0 +1,75 @@
+
+#footer {
+    background: #221c20;
+    color: #fff;
+    padding-bottom: 1rem;
+}
+
+.footer-title {
+    font-size: 17px;
+    color: #fff;
+    font-weight: 700;
+    text-transform: uppercase;
+    margin-bottom: 1rem;
+}
+
+.footer-caption {
+    font-size: 15px;
+    color: var(--secondary);
+    font-weight: 300;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+.footer-url {
+    font-size: 14px;
+    color: var(--secondary);
+    transition: 0.25s ease-in-out;
+}
+
+.footer-url:hover {
+    text-decoration: none;
+    color: #fff;
+}
+
+#footer ul {
+    padding: 0px;
+}
+
+#footer li {
+    margin-top: 0.5rem;
+    margin-bottom: 0.5rem;
+}
+
+.footer-bottom i {
+    color: #fff;
+    font-size: 22px;
+    margin-left: 1rem;
+    margin-right: 1rem;
+    transition: 0.20s ease-in-out;
+}
+
+.footer-bottom i:hover {
+    color: var(--danger);
+}
+
+.footer-bottom-copyright {
+    font-size: 15px;
+    font-weight: 300;
+    margin-top: 1rem;
+    margin-bottom: 0px;
+}
+
+.footer-bottom-credits {
+    font-size: 15px;
+    font-weight: 300;
+}
+
+.footer-bottom-credits a {
+    color: var(--danger);
+    text-decoration: none;
+}
+
+.footer-bottom-credits a:hover {
+    color: var(--danger);
+}

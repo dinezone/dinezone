@@ -1,0 +1,173 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;700;900&display=swap');
+
+body {
+  min-height: 100vh;
+  min-width: 100vw;
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("./assets/img/bg.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  overflow-x: hidden;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+h1, h2 {
+  font-family: 'Inter', sans-serif;
+}
+
+p {
+  margin: 0px;
+  margin-bottom: 1rem;
+  font-family: 'Inter', sans-serif;
+  font-weight: 400;
+  color: #fff;
+  font-size: 24px;
+}
+
+b {
+  background: -webkit-linear-gradient(#FF416C, #FF4B2B);
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-weight: 700;
+}
+
+#left {
+  margin-top: 4em;
+}
+
+#left h1 {
+  font-size: 65px;
+  font-weight: 900;
+  color: #fff;
+  text-transform: uppercase;
+  margin-bottom: 0px;
+}
+
+#left h2 {
+  font-size: 80px;
+  font-weight: 900;
+  background: -webkit-linear-gradient(#FF416C, #FF4B2B);
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  text-transform: uppercase;
+  margin-bottom: 1rem;
+}
+
+#left button {
+  margin-right: 1rem;
+}
+
+#buttons {
+  margin-top: 2rem;
+}
+
+#download-btn {
+  font-family: 'Inter', sans-serif;
+  border: none;
+  outline: none;
+  padding-right: 2.5rem;
+  padding-left: 2.5rem;
+  min-height: 50px;
+  background: linear-gradient(-25deg, #FF416C, #FF4B2B);
+  color: #fff;
+  border-radius: 50px;
+  transition: .25s ease-in-out;
+  margin-bottom: 1rem;
+}
+
+#download-btn:hover {
+  letter-spacing: 1.5px;
+}
+
+#help-btn {
+  font-family: 'Inter', sans-serif;
+  border: none;
+  outline: none;
+  padding-right: 2.5rem;
+  padding-left: 2.5rem;
+  min-height: 50px;
+  background-color: transparent;
+  border: 1.5px solid #fff;
+  color: #fff;
+  border-radius: 50px;
+  transition: .25s ease-in-out;
+  margin-bottom: 1rem;
+}
+
+#help-btn:hover {
+  letter-spacing: 1.5px;
+}
+
+.nav-link {
+  font-family: 'Inter', sans-serif;
+}
+
+::selection {
+  color: #fff;
+  background: rgba(90, 90, 90, 0.5);
+}
+
+::-moz-selection {
+  color: #fff;
+  background: rgba(90, 90, 90, 0.5);
+}
+
+@media only screen and (max-width: 1140px) {
+  #right img {
+    height: 600px;
+    width: auto;
+  }
+  #left {
+    margin-top: 1.5em;
+  }
+}
+
+@media only screen and (max-width: 570px) {
+  #left {
+    padding-left: 2rem;
+    padding-right: 2rem;
+  }
+  #left h1 {
+    font-size: 45px;
+  }
+  #left h2 {
+    font-size: 38px;
+  }
+}
+
+@media only screen and (max-width: 470px) {
+  #right img {
+    height: 0px;
+    width: auto;
+  }
+}
+
+@media only screen and (max-width: 450px) {
+  #left h1 {
+    font-size: 35px;
+  }
+  #left h2 {
+    font-size: 30px;
+  }
+}
+
+@media only screen and (max-width: 300px) {
+  #left h1 {
+    font-size: 25px;
+  }
+  #left h2 {
+    font-size: 20px;
+  }
+}
