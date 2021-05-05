@@ -233,11 +233,12 @@
             </div>
         </div>
     </div>
-    <script src="assets/js/jquery.min.js"></script>
-    <script src="assets/js/popper.js"></script>
-    <script src="assets/js/bootstrap.min.js"></script>
-    <script src="./npm/axios/dist/axios.min.js"></script>
-    <script src="./ajax/libs/parallax/3.1.0/parallax.min.js""></script>
+    <script src="https://cdn.minezone.hu/js/jquery.js"></script>
+    <script src="https://cdn.minezone.hu/js/popper.js"></script>
+    <script src="https://cdn.minezone.hu/js/bootstrap.js"></script>
+    <script src="https://cdn.minezone.hu/js/chart.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/parallax/3.1.0/parallax.min.js"></script>
     <script src="wow.min.js"></script>
     <script src="main.js"></script>
     <script>
