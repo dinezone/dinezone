@@ -1,1 +1,1 @@
-# dinezone.github.io
+# dinezone
